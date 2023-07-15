@@ -1,0 +1,157 @@
+html{
+margin: 0;
+font-family: 'Manrope', sans-serif;
+}
+
+body{
+    margin: 0;
+    height: 5000px;
+}
+
+  /* Дополнительные стили для темной темы */
+
+body.dark-mode {
+    margin: 0;
+    height: 5000px;
+    background-color: #000000e1;
+    color: #ffffff;
+  }
+  
+  
+
+
+/* Навигация шапка + лого*/
+
+
+.ContainerNav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: end;
+    background-color: rgb(88, 38, 134);
+    margin: 0;
+    height: 50px;
+    align-items: center;
+    
+
+}
+.containerNavList{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    height: 50px;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+
+.dropmenu{
+    display: inline-block;
+}
+
+.dropdownbtn{
+    display: none;
+    background-color: rgb(88, 38, 134);
+    z-index: 2;
+    
+}
+
+.dropmenu:hover .dropdownbtn{
+    position: relative;
+    top: 9px;
+    display: block;
+    color: white;
+}
+
+.darkmode{
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.darkmode:hover{
+    transform: scale(110%);
+    transition: .25s;
+}
+
+.activated{
+    transform: rotate(180deg);
+    
+}
+
+/* hover Навигация шапка*/
+.dropmenu:hover{
+    background-color: rgb(88, 38, 134);
+    height: 18px;
+}
+
+.dropmenu .dropdownbtn:hover{
+color: blueviolet;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+.menubtn1{
+    display: none;
+}
+
+.menubtn{
+    display: none;
+}
+
+.menubtn1:active{
+    transform: scale(120%);
+}
+
+/*Адапт под маленький экран*/
+
+@media (max-width: 720px) {
+.containerNavList{
+    display: none;
+}
+}
+
+@media (max-width: 720px) {
+    .menubtn, .menubtn1{
+        display: block;
+        padding-right: 20px;
+        position: absolute;
+    }
+    }
+
+    @media (max-width: 720px) {
+        .clicks{
+            display: none;
+        }
+        }
+
+        /*Видео и фотки*/
+        .onboardingbox{
+        text-align: center;
+        }
+
+    .onboarding{
+        margin: 20px;
+        width: 50%;
+    }
+/*стили под маленький экран*/
+
+.mobstylelinks{
+    display: none;
+    position: relative;
+}
+.clicks{
+display: block;
+background-color: rgb(88, 38, 134);
+height: 18px;
+top: 34px;
+}

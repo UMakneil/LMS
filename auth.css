@@ -1,0 +1,181 @@
+html{
+    margin: 0;
+    top: 0;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background-image: url('./pictures service/fon_sploshnoj_fioletovyj_65808_3.jpg');
+    background-size:101%;
+    background-repeat: no-repeat;
+}
+
+.containertext{
+    background-color: rgba(88, 38, 134, 0);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.containertext h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+
+.authform{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+label{
+    padding-right: 50px;
+    color: white;
+}
+
+
+.textauth{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-left: 70px;
+}
+
+/*Стили лого*/
+
+.logovats{
+    position: absolute;
+    width: 10rem;
+    height: 3rem;
+    left: 30%;
+    top: 20%;
+    transform: rotate(329deg);
+    transition: 5s;
+}
+
+.logocc{
+    position: absolute;
+    width: 8rem;
+    height: 3rem;
+    left: 63%;
+    top: 20%;
+    transform:rotate(404deg);
+    transition: 5s;
+}
+
+.logocc:hover{
+
+    transition: 5s;
+    transform: rotate(4373deg)
+}
+.logovats:hover{
+
+    transition: 5s;
+    transform: rotate(4373deg)
+}
+
+.containertform{
+    position: relative;
+}
+
+
+.btnauth{
+    width: 100px;
+    border-radius: 7px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-left: 85px;
+}
+
+.logogc{
+    position: absolute;
+    width: 6rem;
+    height: 2rem;
+    left: 45%;
+    top: 35%;
+    transform: rotate(336deg);
+    transition: 5s;
+}
+
+.logogc:hover{
+    position: absolute;
+    width: 6rem;
+    height: 2rem;
+    left: 45%;
+    top: 35%;
+    transform: rotate(-3360deg);
+    transition: 5s;
+
+}
+
+.logohead{
+    position: absolute;
+    width: 6rem;
+    height: 2rem;
+    left: 80%;
+    top: 14%;
+    transform: rotate(381deg);
+    transition: 5s;
+}
+
+.logohead:hover{
+    position: absolute;
+    width: 6rem;
+    height: 2rem;
+    left: 80%;
+    top: 14%;
+    transform: rotate(-3810deg);
+    transition: 5s;
+}
+
+.logoct{
+    position: absolute;
+    width: 6rem;
+    height: 2rem;
+    left: 14%;
+    top: 14%;
+    transform:rotate(381deg);
+    transition: 5s;
+
+}
+
+.logoct:hover{
+    position: absolute;
+    width: 6rem;
+    height: 2rem;
+    left: 14%;
+    top: 14%;
+    transform:rotate(3810deg);
+    transition: 5s;
+
+}
+
+.logowire{
+    position: absolute;
+    width: 6rem;
+    height: 2rem;
+    left: 60%;
+    top: 35%;
+    transform: rotate(380deg);
+    transition: 5s;
+}
+
+.logowire:hover{
+    position: absolute;
+    width: 6rem;
+    height: 2rem;
+    left: 60%;
+    top: 35%;
+    transform: rotate(3800deg);
+    transition: 5s;
+}
